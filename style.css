@@ -1,0 +1,165 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+}
+
+
+
+
+
+.top, .footer{
+    background-color: #1f2937;
+    color: white;
+ 
+}
+
+body{
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    
+
+    
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    }
+
+ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.left-logo{ 
+    font-size: 24px;
+    font-weight: 900;
+    font-style: oblique;
+    color: #3882f6;        
+}
+
+.right-links li{
+    padding: 5px;
+        
+}
+
+.intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    
+    max-width: 90vw;
+}
+
+.introtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+    max-width: 40vw;
+    padding-left: 10px;
+}
+.introtext h3{
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+
+.but1{
+    flex-grow: 0;
+    max-width: 80px;
+}
+
+button{
+
+    color:white;
+    background-color: #3882f6;
+    border-radius: 10%;
+    border: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rando{
+    
+    flex: 1;
+}
+
+
+.deck{
+    display: flex;
+    justify-content: space-around;
+    border-color: #1f2937;
+    ;
+    gap: 20px;
+    justify-content: center;
+    flex: 1;
+    
+    
+    
+}
+
+.deck img{
+    width: 100px;
+    max-height: 100px;
+    display: flex;
+}
+
+.deck li{
+    max-width: 20vw;
+    text-align: center;
+    
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    color: #1f2937;
+     }
+
+.quote p{
+    text-align: left;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    font-style: oblique;
+}
+
+.quote h6{
+    text-align: right;
+    padding-right: 23vw;
+}
+
+.sign{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #3882f6;
+    border: #e5e7eb;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    border-radius: 5%;
+    
+}
+
+.werds{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+}
