@@ -42,6 +42,7 @@ body{
 .right-links{
     list-style: none;
     display: flex;
+    cursor: pointer;
 }
 
 .right-links li{
